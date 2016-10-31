@@ -1,8 +1,8 @@
 #Swift Radio: Single-Station Branch
 
-Swift Radio is an open source radio station app with robust and professional features. This is a fully realized Radio App built entirely in Swift 2.  
+Swift Radio is an open source radio station app with robust and professional features. This is a fully realized Radio App built entirely in Swift 2 / Xcode 7
 
-**NOTE:** This is an experimental branch with the StationsViewController removed to demonstrate how this app might work with only one station.
+**NOTE:** This is a simple  branch with the StationsViewController removed to demonstrate how this app might work with only one station. This single station version will not be upgraded. It is to be used as an example of what to remove, code wise. It was made in about 10 minutes by simply removing code. If you're viewing this in the future, using a new version of Xcode, you can use the latest master build as a starting point to create a new single station build. If you can not figure it out on your own, I'd suggest finding a developer in your area for help. Good luck.
 
 You can update the station information in the ViewDidLoad of the NowPlayingViewController.
 
