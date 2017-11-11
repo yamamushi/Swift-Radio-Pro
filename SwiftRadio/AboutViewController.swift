@@ -3,6 +3,7 @@
 //  Swift Radio
 //
 //  Created by Matthew Fecher on 7/9/15.
+//  Modified by Jonathan Rumion on 11/10/17.
 //  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
 //
 
@@ -26,8 +27,8 @@ class AboutViewController: UIViewController {
     @IBAction func emailButtonDidTouch(_ sender: UIButton) {
         
         // Use your own email address & subject
-        let receipients = ["matthew.fecher@gmail.com"]
-        let subject = "From Swift Radio App"
+        let receipients = ["yamamushi@gmail.com"]
+        let subject = "From iOS DUFM Radio App"
         let messageBody = ""
         
         let configuredMailComposeViewController = configureMailComposeViewController(recepients: receipients, subject: subject, messageBody: messageBody)
@@ -42,7 +43,7 @@ class AboutViewController: UIViewController {
     @IBAction func websiteButtonDidTouch(_ sender: UIButton) {
         
         // Use your own website here
-        if let url = URL(string: "http://matthewfecher.com") {
+        if let url = URL(string: "http://du-radio.com") {
             UIApplication.shared.openURL(url)
         }
     }

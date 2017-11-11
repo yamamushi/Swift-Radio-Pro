@@ -3,6 +3,7 @@
 //  Swift Radio
 //
 //  Created by Matthew Fecher on 7/19/15.
+//  Modified by Jonathan Rumion on 11/10/17.
 //  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
 //
 
@@ -78,7 +79,7 @@ class StationsViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self.title = "Swift Radio"
+        self.title = "DUFM Radio"
         
         // If a station has been selected, create "Now Playing" button to get back to current station
         if !firstTime {

@@ -3,6 +3,7 @@
 //  Swift Radio
 //
 //  Created by Matthew Fecher on 7/22/15.
+//  Modified by Jonathan Rumion on 11/10/17.
 //  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
 //
 
@@ -465,7 +466,7 @@ class NowPlayingViewController: UIViewController {
     }
     
     @IBAction func shareButtonPressed(_ sender: UIButton) {
-        let songToShare = "I'm listening to \(track.title) on \(currentStation.stationName) via Swift Radio Pro"
+        let songToShare = "I'm listening to \(track.title) on \(currentStation.stationName) via DUFM Radio!"
         let activityViewController = UIActivityViewController(activityItems: [songToShare, track.artworkImage!], applicationActivities: nil)
         present(activityViewController, animated: true, completion: nil)
     }

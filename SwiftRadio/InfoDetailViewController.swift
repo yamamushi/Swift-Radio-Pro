@@ -3,6 +3,7 @@
 //  Swift Radio
 //
 //  Created by Matthew Fecher on 7/9/15.
+//  Modified by Jonathan Rumion on 11/10/17.
 //  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
 //
 
@@ -56,7 +57,7 @@ class InfoDetailViewController: UIViewController {
     
     func loadDefaultText() {
         // Add your own default ext
-        stationLongDescTextView.text = "You are listening to Swift Radio. This is a sweet open source project. Tell your friends, swiftly!"
+        stationLongDescTextView.text = "You are listening to DUFM Radio. Tell your friends!"
     }
     
     func setupStationLogo() {

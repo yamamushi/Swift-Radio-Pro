@@ -3,6 +3,7 @@
 //  Swift Radio
 //
 //  Created by Matthew Fecher on 7/2/15.
+//  Modified by Jonathan Rumion on 11/10/17.
 //  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
 //
 
@@ -22,8 +23,8 @@ let kDebugLog = true
 // If this is set to "true", it will use the JSON file in the app
 // Set it to "false" to use the JSON file at the stationDataURL
 
-let useLocalStations = true
-let stationDataURL   = "http://yoururl.com/json/stations.json"
+let useLocalStations = false
+let stationDataURL   = "http://du-radio.com/json/stations.json"
 
 //**************************************
 // SEARCH BAR
@@ -43,6 +44,6 @@ let useLastFM = true
 // IF YOU USE LASTFM, PLEASE USE YOUR OWN KEY
 // Visit: http://www.last.fm/api
 
-let apiKey    = "9a267c245324cfa4f887366d497d3dd3"
-let apiSecret = "f1191864d7ae71e580b89238129768b8"
+let apiKey    = "ac9461eca782a1af649f191bbd58f432"
+let apiSecret = "b30fddd0af929a2f691c7626b6ee052b"
 

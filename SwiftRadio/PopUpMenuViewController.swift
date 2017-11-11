@@ -3,6 +3,7 @@
 //  Swift Radio
 //
 //  Created by Matthew Fecher on 7/9/15.
+//  Modified by Jonathan Rumion on 11/10/17.
 //  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
 //
 
@@ -47,7 +48,7 @@ class PopUpMenuViewController: UIViewController {
    
     @IBAction func websiteButtonPressed(_ sender: UIButton) {
         // Use your own website URL here
-        if let url = URL(string: "https://github.com/swiftcodex/") {
+        if let url = URL(string: "http://du-radio.com") {
             UIApplication.shared.openURL(url)
         }
     }
